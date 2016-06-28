@@ -50,7 +50,7 @@ public class TestRecomendationFacadeImpl {
 	   @Test
 	   public void invokeAllRecomendationServicesWithLongText(){	
 	      
-		   String searchString="Titan watch";
+		   String searchString="titan";
 		   String returnValue=facade.invokeAllRecomendationServices(searchString);
 	      Assert.assertNotNull(returnValue);
 	      Assert.assertSame("valid search","SUCCESS", returnValue);;
