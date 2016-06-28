@@ -12,6 +12,7 @@ import com.walmart.model.RecomendedProduct;
  */
 public class ReviewComparator implements Comparator<RecomendedProduct> {
 
+	
 	public int compare(RecomendedProduct prod1, RecomendedProduct prod2) {
 		// TODO Auto-generated method stub
 		if (null!=prod1 && null!= prod2 &&null != prod1.getAverageOverallRating()
