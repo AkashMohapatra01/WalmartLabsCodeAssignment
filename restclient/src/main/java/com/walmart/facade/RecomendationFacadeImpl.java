@@ -50,7 +50,7 @@ public class RecomendationFacadeImpl implements IRecomendationFacade{
 		}
 		
 		//1. Call Search API and retrieve the first item from the list
-		Item item = recomendationService.getFirstItemFromSearchAPI("watch");
+		Item item = recomendationService.getFirstItemFromSearchAPI(searchString);
 
 		
 		List<RecomendedProduct> productRecomendationList = new ArrayList<RecomendedProduct>();
